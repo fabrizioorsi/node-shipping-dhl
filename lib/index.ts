@@ -119,7 +119,6 @@ export default class DHLAPI {
 
   private request(xml: any, cb) {
 
-    console.log('xml', xml);
 
     request.post({
       url: this.url,
